@@ -9,6 +9,11 @@ import time
 
 
 def main():
+
+    """
+    Función principal
+
+    """
 # Opciones de navegación
     options =  webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
